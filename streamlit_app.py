@@ -158,6 +158,12 @@ if "player_tasks" not in st.session_state:
     st.session_state.player_tasks = {}
 
 st.set_page_config(page_title="涛的鹅鸭杀", page_icon="🦆")
+# 版本号
+st.markdown("""
+<div style="position: absolute; top: 0.5rem; right:1rem; color:#888; font-size:0.8rem; z-index:1000;">
+version: 0.2d
+</div>
+""", unsafe_allow_html=True)
 st.title("🪿 欢迎来到涛的鹅鸭杀")
 st.title("🦆 请选择你的身份")
 st.caption("初版内测，版权及发布页https://github.com/MangoChili/")
